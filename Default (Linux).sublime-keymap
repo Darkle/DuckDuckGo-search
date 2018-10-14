@@ -1,8 +1,8 @@
 [
     {
-        "keys": ["ctrl+alt+g"], "command": "google_search"
+        "keys": ["ctrl+alt+g"], "command": "ddg_search"
     },
     {
-        "keys": ["ctrl+shift+alt+g"], "command": "google_search_any"
+        "keys": ["ctrl+shift+alt+g"], "command": "ddg_search_any"
     }
 ]
