@@ -1,23 +1,17 @@
-Google Search
+DuckDuckGo Search
 =============
 
-Search Google for the currently selected text/word, or an input in Sublime Text 2/3.
+Search DuckDuckGo for the currently selected text/word, or an input in Sublime Text 2/3.
 
 This package adds: 
 
-* A `Google Search` command to the context menu for the selected 
+* A `DuckDuckGo Search` command to the context menu for the selected 
 * A pallete command for the current selection(or word)
 * A pallete command that will ask you what to search
 
 ## Install
 
-If your using the [Sublime Package Manager][2] hold down Ctrl+Shift+P and type
-`Package Control: Install Package`. Then search for `google-search` and hit return.
-
-If your not using the package manager then go to your Sublime packages directory(Sublime Text/Packages) Then run this command `git clone https://github.com/nwjlyons/google-search.git`.
-
-Or you can download the package as a zip file [https://github.com/nwjlyons/google-search/archive/master.zip][3] then copy it into your Sublime packages directory.
-
+Go to your Sublime packages directory(Sublime Text/Packages) Then run this command `git clone https://github.com/Darkle/DuckDuckGo-search.git`.
 
 ## Settings
 ```js
@@ -25,10 +19,10 @@ Or you can download the package as a zip file [https://github.com/nwjlyons/googl
     "suffix": "", // will be after the query
     "prefix": "", // will be added before the query
     "default_browser": "", // chrome, firefox, more valid values here https://docs.python.org/2/library/webbrowser.html#webbrowser.register
-    "domain": "https://www.google.com" // google domain to perform the search
+    "domain": "https://duckduckgo.com" // duckduckgo domain to perform the search
 }
 ```
-You can edit the settings by going to Preferences -> Package Settings -> Google Search -> Settings - User
+You can edit the settings by going to Preferences -> Package Settings -> DuckDuckGo Search -> Settings - User
 
 ## Usage
 
