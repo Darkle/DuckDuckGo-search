@@ -1,4 +1,4 @@
 [
-  { "caption": "Google Search: Search selected text/word", "command": "google_search" },
-  { "caption": "Google Search: Search any", "command": "google_search_any" }
+  { "caption": "DuckDuckGo Search: Search selected text/word", "command": "ddg_search" },
+  { "caption": "DuckDuckGo Search: Search any", "command": "ddg_search_any" }
 ]
