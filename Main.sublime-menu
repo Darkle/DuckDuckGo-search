@@ -12,17 +12,17 @@
                 "children":
                 [
                     {
-                        "caption": "Google Search",
+                        "caption": "DuckDuckGo Search",
                         "children":
                         [
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/google-search/google_search.sublime-settings"},
+                                "args": {"file": "${packages}/DuckDuckGo-search/ddg_search.sublime-settings"},
                                 "caption": "Settings – Default"
                             },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/User/google_search.sublime-settings"},
+                                "args": {"file": "${packages}/User/ddg_search.sublime-settings"},
                                 "caption": "Settings – User"
                             },
                             { "caption": "-" }
