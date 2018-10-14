@@ -8,11 +8,11 @@ else:
     from urllib.parse import quote_plus as quote_param
 
 def search(q):
-    settings = sublime.load_settings("google_search.sublime-settings")
+    settings = sublime.load_settings("ddg_search.sublime-settings")
     # Attach the suffix and the prefix
     q = settings.get('prefix', '') + quote_param(q) + settings.get('suffix', '')
 
-    fullUrl = settings.get('domain', 'https://www.google.com') + "/search?q=%s" % q
+    fullUrl = settings.get('domain', 'https://duckduckgo.com') + "/?q=%s" % q
     browser = settings.get('default_browser', '')
 
     if browser:
@@ -23,7 +23,7 @@ def search(q):
     else:
         webbrowser.open(fullUrl)
 
-class GoogleSearchCommand(sublime_plugin.TextCommand):
+class DDGSearchCommand(sublime_plugin.TextCommand):
     """
     Search the selected text or the current word
     """
@@ -47,10 +47,10 @@ class GoogleSearchCommand(sublime_plugin.TextCommand):
             search(selection)
         else:
             sublime.status_message(" Nothing to search !")
-            print("Google Search Plugin: Nothing to search !")
+            print("DuckDuckGo Search Plugin: Nothing to search !")
 
 
-class GoogleSearchAnyCommand(sublime_plugin.WindowCommand):
+class DDGSearchAnyCommand(sublime_plugin.WindowCommand):
     """
     A command that prompts the user to enter search query text.
     """
