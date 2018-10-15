@@ -17,7 +17,7 @@
                         [
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/DuckDuckGo-search/ddg_search.sublime-settings"},
+                                "args": {"file": "${packages}/ddg-search/ddg_search.sublime-settings"},
                                 "caption": "Settings – Default"
                             },
                             {
