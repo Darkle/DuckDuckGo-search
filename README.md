@@ -3,9 +3,9 @@ DuckDuckGo Search
 
 Search DuckDuckGo for the currently selected text/word, or an input in Sublime Text 2/3.
 
-This package adds: 
+This package adds:
 
-* A `DuckDuckGo Search` command to the context menu for the selected 
+* A `DuckDuckGo Search` command to the context menu for the selected
 * A pallete command for the current selection(or word)
 * A pallete command that will ask you what to search
 
@@ -39,7 +39,6 @@ Command Pallette
 
   [1]: http://www.sublimetext.com
   [2]: https://sublime.wbond.net/
-  [3]: https://github.com/nwjlyons/google-search/archive/master.zip
   [4]: http://i.stack.imgur.com/MJMC1.png
   [5]: http://puu.sh/9DyUy/b89bbcd3ce.png
   [6]: http://puu.sh/9Dz30/cd502986cd.png
