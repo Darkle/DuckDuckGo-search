@@ -23,7 +23,7 @@ def search(q):
     else:
         webbrowser.open(fullUrl)
 
-class DDGSearchCommand(sublime_plugin.TextCommand):
+class DdgSearchCommand(sublime_plugin.TextCommand):
     """
     Search the selected text or the current word
     """
@@ -50,7 +50,7 @@ class DDGSearchCommand(sublime_plugin.TextCommand):
             print("DuckDuckGo Search Plugin: Nothing to search !")
 
 
-class DDGSearchAnyCommand(sublime_plugin.WindowCommand):
+class DdgSearchAnyCommand(sublime_plugin.WindowCommand):
     """
     A command that prompts the user to enter search query text.
     """
